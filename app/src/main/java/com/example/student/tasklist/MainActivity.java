@@ -45,8 +45,6 @@ public class MainActivity extends ActionBarActivity {
                         tasks.remove(position);
                         tasksAdapter.notifyDataSetChanged();
                         return true;
-
-
                     }
                 }
         );
